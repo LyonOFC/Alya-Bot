@@ -1,5 +1,7 @@
 let handler = async (m, { conn, isAdmin, isOwner, isROwner, isBotAdmin, text }) => {
-  if (!m.isGroup) return m.reply(`
+  let isGroup = m.chat.endsWith('@g.us')
+  
+  if (!isGroup) return m.reply(`
 ㅤ    ꒰  ㅤ ❌ ㅤ *αℓуα ѕυв* ㅤ ⫏⫏  ꒱
 ㅤ    ⿻ ㅤ ✿ ㅤ єяяσя 木 ɢяυρσ ㅤ 性
 
@@ -46,7 +48,7 @@ let handler = async (m, { conn, isAdmin, isOwner, isROwner, isBotAdmin, text }) 
   const isOwnerTarget = isROwnerTarget || user === conn.user.jid
 
   if (isOwnerTarget) return m.reply(`
-ㅤ    ꒰  ㅤ 🛡️ ㅤ *αℓуα ѕυв* ㅤ ⫏⫏  ꒱
+ㅤ    ꒰  ㅤ ☄️ ㅤ *αℓуα ѕυв* ㅤ ⫏⫏  ꒱
 ㅤ    ⿻ ㅤ ✿ ㅤ ησ 木 ρυє∂єѕ ㅤ 性
 
 > ₊· ⫏⫏ ㅤ Nσ ρυє∂єѕ єχρυℓѕαя αℓ ¢яєα∂σя
