@@ -1,0 +1,1067 @@
+[
+  {
+    "question": "¿Cuál es la capital de Francia?",
+    "options": ["Londres", "Berlín", "París", "Madrid"],
+    "correct": "París"
+  },
+  {
+    "question": "¿Qué planeta es conocido como el 'Planeta Rojo'?",
+    "options": ["Júpiter", "Marte", "Venus", "Saturno"],
+    "correct": "Marte"
+  },
+  {
+    "question": "¿En qué año llegó el hombre a la luna?",
+    "options": ["1965", "1969", "1972", "1958"],
+    "correct": "1969"
+  },
+  {
+    "question": "¿Quién pintó la Mona Lisa?",
+    "options": ["Van Gogh", "Picasso", "Da Vinci", "Rembrandt"],
+    "correct": "Da Vinci"
+  },
+  {
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "options": ["Atlántico", "Índico", "Ártico", "Pacífico"],
+    "correct": "Pacífico"
+  },
+  {
+    "question": "¿Qué animal es conocido como el 'Rey de la Selva'?",
+    "options": ["Elefante", "Tigre", "León", "Jaguar"],
+    "correct": "León"
+  },
+  {
+    "question": "¿Cuál es el deporte más popular del mundo?",
+    "options": ["Básquet", "Tenis", "Fútbol", "Beisbol"],
+    "correct": "Fútbol"
+  },
+  {
+    "question": "¿En qué continente está Egipto?",
+    "options": ["Asia", "Europa", "África", "América"],
+    "correct": "África"
+  },
+  {
+    "question": "¿Quién escribió 'Cien años de soledad'?",
+    "options": ["Mario Vargas Llosa", "Julio Cortázar", "Gabriel García Márquez", "Pablo Neruda"],
+    "correct": "Gabriel García Márquez"
+  },
+  {
+    "question": "¿Cuál es la moneda de Estados Unidos?",
+    "options": ["Euro", "Yen", "Libra", "Dólar"],
+    "correct": "Dólar"
+  },
+  {
+    "question": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+    "options": ["196", "206", "216", "186"],
+    "correct": "206"
+  },
+  {
+    "question": "¿Quién fue el primer presidente de Estados Unidos?",
+    "options": ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"],
+    "correct": "George Washington"
+  },
+  {
+    "question": "¿Qué país tiene la forma de una bota?",
+    "options": ["España", "Francia", "Italia", "Grecia"],
+    "correct": "Italia"
+  },
+  {
+    "question": "¿Cuál es el río más largo del mundo?",
+    "options": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
+    "correct": "Amazonas"
+  },
+  {
+    "question": "¿Qué vitamina produce el cuerpo con la luz solar?",
+    "options": ["Vitamina A", "Vitamina B12", "Vitamina C", "Vitamina D"],
+    "correct": "Vitamina D"
+  },
+  {
+    "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+    "options": ["1912", "1914", "1916", "1918"],
+    "correct": "1914"
+  },
+  {
+    "question": "¿Quién pintó 'La noche estrellada'?",
+    "options": ["Van Gogh", "Picasso", "Monet", "Dalí"],
+    "correct": "Van Gogh"
+  },
+  {
+    "question": "¿Cuál es el animal más rápido del mundo?",
+    "options": ["León", "Guepardo", "Águila", "Tiburón"],
+    "correct": "Guepardo"
+  },
+  {
+    "question": "¿Qué signo zodiacal es el primero del año?",
+    "options": ["Tauro", "Géminis", "Aries", "Piscis"],
+    "correct": "Aries"
+  },
+  {
+    "question": "¿Cuál es el país más poblado del mundo?",
+    "options": ["India", "China", "Estados Unidos", "Indonesia"],
+    "correct": "China"
+  },
+  {
+    "question": "¿Qué instrumento toca Juanes?",
+    "options": ["Piano", "Violín", "Guitarra", "Batería"],
+    "correct": "Guitarra"
+  },
+  {
+    "question": "¿Cuál es la montaña más alta del mundo?",
+    "options": ["K2", "Makalu", "Everest", "Lhotse"],
+    "correct": "Everest"
+  },
+  {
+    "question": "¿Quién descubrió América?",
+    "options": ["Cristóbal Colón", "Fernando de Magallanes", "Juan Sebastián Elcano", "Vasco da Gama"],
+    "correct": "Cristóbal Colón"
+  },
+  {
+    "question": "¿Cuál es el idioma más hablado del mundo?",
+    "options": ["Inglés", "Español", "Mandarin", "Hindi"],
+    "correct": "Mandarin"
+  },
+  {
+    "question": "¿Qué es la capa más externa de la Tierra?",
+    "options": ["Manto", "Núcleo", "Corteza", "Atmósfera"],
+    "correct": "Corteza"
+  },
+  {
+    "question": "¿Quién escribió 'Romeo y Julieta'?",
+    "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
+    "correct": "William Shakespeare"
+  },
+  {
+    "question": "¿Cuál es el país más grande del mundo en superficie?",
+    "options": ["Canadá", "China", "Rusia", "Estados Unidos"],
+    "correct": "Rusia"
+  },
+  {
+    "question": "¿Dónde se encuentra la Torre Eiffel?",
+    "options": ["Londres", "Roma", "París", "Madrid"],
+    "correct": "París"
+  },
+  {
+    "question": "¿Cuántos continentes hay?",
+    "options": ["5", "6", "7", "8"],
+    "correct": "7"
+  },
+  {
+    "question": "¿Qué es el Everest?",
+    "options": ["Río", "Montaña", "Volcán", "Desierto"],
+    "correct": "Montaña"
+  },
+  {
+    "question": "¿Quién fue el primer hombre en pisar la luna?",
+    "options": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"],
+    "correct": "Neil Armstrong"
+  },
+  {
+    "question": "¿Cuál es la flor nacional de Japón?",
+    "options": ["Rosa", "Tulipán", "Cerezo", "Loto"],
+    "correct": "Cerezo"
+  },
+  {
+    "question": "¿Cuántos anillos tiene el logo de los Juegos Olímpicos?",
+    "options": ["3", "4", "5", "6"],
+    "correct": "5"
+  },
+  {
+    "question": "¿Quién pintó 'La última cena'?",
+    "options": ["Michelangelo", "Da Vinci", "Rafael", "Caravaggio"],
+    "correct": "Da Vinci"
+  },
+  {
+    "question": "¿Cuál es el desierto más grande del mundo?",
+    "options": ["Sahara", "Gobi", "Antártico", "Kalahari"],
+    "correct": "Antártico"
+  },
+  {
+    "question": "¿En qué año se fundó Google?",
+    "options": ["1996", "1997", "1998", "1999"],
+    "correct": "1998"
+  },
+  {
+    "question": "¿Cuál es el océano más pequeño?",
+    "options": ["Ártico", "Índico", "Atlántico", "Pacífico"],
+    "correct": "Ártico"
+  },
+  {
+    "question": "¿Quién es el dios griego del cielo?",
+    "options": ["Poseidón", "Hades", "Zeus", "Apolo"],
+    "correct": "Zeus"
+  },
+  {
+    "question": "¿Cuál es el metal más abundante en la corteza terrestre?",
+    "options": ["Hierro", "Cobre", "Oro", "Aluminio"],
+    "correct": "Aluminio"
+  },
+  {
+    "question": "¿Quién fue el primer emperador romano?",
+    "options": ["Julio César", "Augusto", "Nerón", "Trajano"],
+    "correct": "Augusto"
+  },
+  {
+    "question": "¿Qué selección ganó el mundial de 2010?",
+    "options": ["Alemania", "Argentina", "Brasil", "España"],
+    "correct": "España"
+  },
+  {
+    "question": "¿Cuántos jugadores hay en un equipo de fútbol?",
+    "options": ["9", "10", "11", "12"],
+    "correct": "11"
+  },
+  {
+    "question": "¿Quién pintó 'El grito'?",
+    "options": ["Edvard Munch", "Van Gogh", "Picasso", "Monet"],
+    "correct": "Edvard Munch"
+  },
+  {
+    "question": "¿Cuál es la velocidad de la luz en km/s?",
+    "options": ["200.000", "250.000", "300.000", "350.000"],
+    "correct": "300.000"
+  },
+  {
+    "question": "¿En qué año cayó el muro de Berlín?",
+    "options": ["1987", "1988", "1989", "1990"],
+    "correct": "1989"
+  },
+  {
+    "question": "¿Qué país tiene la mayor biodiversidad del mundo?",
+    "options": ["Colombia", "Perú", "Indonesia", "Brasil"],
+    "correct": "Brasil"
+  },
+  {
+    "question": "¿Cuál es el libro más vendido de la historia?",
+    "options": ["El Principito", "Cien años de soledad", "La Biblia", "Don Quijote"],
+    "correct": "La Biblia"
+  },
+  {
+    "question": "¿Quién desarrolló la teoría de la relatividad?",
+    "options": ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Niels Bohr"],
+    "correct": "Albert Einstein"
+  },
+  {
+    "question": "¿Cuál es el país más pequeño del mundo?",
+    "options": ["Mónaco", "San Marino", "Vaticano", "Malta"],
+    "correct": "Vaticano"
+  },
+  {
+    "question": "¿En qué año se extinguió el dinosaurio?",
+    "options": ["65 millones", "50 millones", "80 millones", "100 millones"],
+    "correct": "65 millones"
+  },
+  {
+    "question": "¿Qué es un triángulo con todos los lados iguales?",
+    "options": ["Isósceles", "Escaleno", "Equilátero", "Rectángulo"],
+    "correct": "Equilátero"
+  },
+  {
+    "question": "¿Quién fue el primer humano en viajar al espacio?",
+    "options": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "John Glenn"],
+    "correct": "Yuri Gagarin"
+  },
+  {
+    "question": "¿Cuál es el mamífero más grande del mundo?",
+    "options": ["Elefante", "Jirafa", "Ballena Azul", "Hipopótamo"],
+    "correct": "Ballena Azul"
+  },
+  {
+    "question": "¿Cuál es el símbolo químico del oro?",
+    "options": ["Au", "Ag", "Fe", "Pb"],
+    "correct": "Au"
+  },
+  {
+    "question": "¿En qué año terminó la Segunda Guerra Mundial?",
+    "options": ["1943", "1944", "1945", "1946"],
+    "correct": "1945"
+  },
+  {
+    "question": "¿Cuál es la capital de España?",
+    "options": ["Barcelona", "Valencia", "Sevilla", "Madrid"],
+    "correct": "Madrid"
+  },
+  {
+    "question": "¿Quién fue el primer ganador de American Idol?",
+    "options": ["Kelly Clarkson", "Carrie Underwood", "Fantasia Barrino", "Ruben Studdard"],
+    "correct": "Kelly Clarkson"
+  },
+  {
+    "question": "¿Cuántos colores tiene el arcoíris?",
+    "options": ["5", "6", "7", "8"],
+    "correct": "7"
+  },
+  {
+    "question": "¿Cuál es el estado de EE. UU. conocido como 'Sunshine State'?",
+    "options": ["California", "Texas", "Florida", "Arizona"],
+    "correct": "Florida"
+  },
+  {
+    "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
+    "options": ["Lope de Vega", "Miguel de Cervantes", "Garcilaso de la Vega", "Francisco de Quevedo"],
+    "correct": "Miguel de Cervantes"
+  },
+  {
+    "question": "¿Cuál es el animal más grande de la historia?",
+    "options": ["Dinosaurio", "Ballena Azul", "Mamut", "Megalodón"],
+    "correct": "Ballena Azul"
+  },
+  {
+    "question": "¿En qué país se encuentra Machu Picchu?",
+    "options": ["Colombia", "Chile", "Bolivia", "Perú"],
+    "correct": "Perú"
+  },
+  {
+    "question": "¿Quién fue conocido como el 'Rey del Pop'?",
+    "options": ["Elvis Presley", "Prince", "Michael Jackson", "Freddie Mercury"],
+    "correct": "Michael Jackson"
+  },
+  {
+    "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "options": ["Radio", "Cúbito", "Fémur", "Tibia"],
+    "correct": "Fémur"
+  },
+  {
+    "question": "¿Cuál es el único mamífero que puede volar?",
+    "options": ["Murciélago", "Pájaro", "Mariposa", "Abeja"],
+    "correct": "Murciélago"
+  },
+  {
+    "question": "¿Qué año fue el lanzamiento del iPhone original?",
+    "options": ["2005", "2006", "2007", "2008"],
+    "correct": "2007"
+  },
+  {
+    "question": "¿Cuál es el planeta más grande del sistema solar?",
+    "options": ["Júpiter", "Saturno", "Neptuno", "Marte"],
+    "correct": "Júpiter"
+  },
+  {
+    "question": "¿Quién fue la primera mujer en ganar un Premio Nobel?",
+    "options": ["Marie Curie", "Madre Teresa", "Lise Meitner", "Ida Noddack"],
+    "correct": "Marie Curie"
+  },
+  {
+    "question": "¿Cuál es la capital de Japón?",
+    "options": ["Osaka", "Kioto", "Tokio", "Yokohama"],
+    "correct": "Tokio"
+  },
+  {
+    "question": "¿Quién dirigió la película 'Titanic'?",
+    "options": ["Steven Spielberg", "James Cameron", "Peter Jackson", "Christopher Nolan"],
+    "correct": "James Cameron"
+  },
+  {
+    "question": "¿Cuál es el país con más islas del mundo?",
+    "options": ["Filipinas", "Noruega", "Suecia", "Indonesia"],
+    "correct": "Suecia"
+  },
+  {
+    "question": "¿Cuál es el dinosaurio más famoso?",
+    "options": ["T-Rex", "Velociraptor", "Triceratops", "Brontosaurio"],
+    "correct": "T-Rex"
+  },
+  {
+    "question": "¿Quién pintó 'La persistencia de la memoria' (los relojes blandos)?",
+    "options": ["Picasso", "Dalí", "Magritte", "Miró"],
+    "correct": "Dalí"
+  },
+  {
+    "question": "¿Cuál es el único planeta que gira sobre su eje horizontal?",
+    "options": ["Venus", "Marte", "Urano", "Neptuno"],
+    "correct": "Urano"
+  },
+  {
+    "question": "¿Cuántos dientes tiene un adulto promedio?",
+    "options": ["28", "30", "32", "34"],
+    "correct": "32"
+  },
+  {
+    "question": "¿Quién fue el líder de la Revolución Rusa?",
+    "options": ["Stalin", "Trotsky", "Lenin", "Kerensky"],
+    "correct": "Lenin"
+  },
+  {
+    "question": "¿Cuál es la ciudad más poblada del mundo?",
+    "options": ["Tokio", "Shanghái", "Delhi", "Ciudad de México"],
+    "correct": "Tokio"
+  },
+  {
+    "question": "¿Quién es el autor de 'El Principito'?",
+    "options": ["Antoine de Saint-Exupéry", "Victor Hugo", "Jules Verne", "Albert Camus"],
+    "correct": "Antoine de Saint-Exupéry"
+  },
+  {
+    "question": "¿Cuál es el animal nacional de Australia?",
+    "options": ["Koala", "Wallaby", "Canguro", "Ornitorrinco"],
+    "correct": "Canguro"
+  },
+  {
+    "question": "¿Cuánto dura un año luz?",
+    "options": ["Distancia de la luz en un año", "Tiempo de la luz en un año", "Año de la luz", "Tiempo de un año"],
+    "correct": "Distancia de la luz en un año"
+  },
+  {
+    "question": "¿Qué empresa fue fundada por Steve Jobs?",
+    "options": ["Microsoft", "Google", "Apple", "Amazon"],
+    "correct": "Apple"
+  },
+  {
+    "question": "¿Cuál es el hueso más pequeño del cuerpo humano?",
+    "options": ["Martillo", "Yunque", "Estribo", "Hioides"],
+    "correct": "Estribo"
+  },
+  {
+    "question": "¿Cuál es el lago más profundo del mundo?",
+    "options": ["Titicaca", "Superior", "Niágara", "Baikal"],
+    "correct": "Baikal"
+  },
+  {
+    "question": "¿Quién fue el primer presidente de Sudáfrica?",
+    "options": ["F. W. de Klerk", "Nelson Mandela", "Thabo Mbeki", "Jacob Zuma"],
+    "correct": "Nelson Mandela"
+  },
+  {
+    "question": "¿Cuál es la planta más famosa de Navidad?",
+    "options": ["Pino", "Muérdago", "Estrella de Belén", "Flor de Pascua"],
+    "correct": "Flor de Pascua"
+  },
+  {
+    "question": "¿Cuál es el ave que no puede volar pero corre rápido?",
+    "options": ["Pingüino", "Avestruz", "Ñandú", "Emú"],
+    "correct": "Avestruz"
+  },
+  {
+    "question": "¿Cuál es la ciudad que alberga la Estatua de la Libertad?",
+    "options": ["Washington D.C.", "Boston", "Nueva York", "Los Ángeles"],
+    "correct": "Nueva York"
+  },
+  {
+    "question": "¿Quién fundó Microsoft?",
+    "options": ["Paul Allen", "Steve Ballmer", "Bill Gates", "Mark Zuckerberg"],
+    "correct": "Bill Gates"
+  },
+  {
+    "question": "¿Cuál es el instrumento nacional de Escocia?",
+    "options": ["Violín", "Gaita", "Arpa", "Órgano"],
+    "correct": "Gaita"
+  },
+  {
+    "question": "¿En qué año se estrenó el primer video de YouTube?",
+    "options": ["2003", "2004", "2005", "2006"],
+    "correct": "2005"
+  },
+  {
+    "question": "¿Cuál es el animal con el cerebro más grande en proporción a su cuerpo?",
+    "options": ["Delfín", "Elefante", "Humano", "Rata"],
+    "correct": "Humano"
+  },
+  {
+    "question": "¿Cuál es la capital de Alemania?",
+    "options": ["Baviera", "Múnich", "Frankfurt", "Berlín"],
+    "correct": "Berlín"
+  },
+  {
+    "question": "¿Cuál es el elemento químico más ligero?",
+    "options": ["Helio", "Oxígeno", "Hidrógeno", "Litio"],
+    "correct": "Hidrógeno"
+  },
+  {
+    "question": "¿Quién fue el primer hombre en caminar en el espacio?",
+    "options": ["Alexei Leonov", "Yuri Gagarin", "Neil Armstrong", "Ed White"],
+    "correct": "Alexei Leonov"
+  },
+  {
+    "question": "¿Cuál es la marca de automóviles más antigua del mundo?",
+    "options": ["Ford", "Mercedes-Benz", "Peugeot", "Fiat"],
+    "correct": "Peugeot"
+  },
+  {
+    "question": "¿Qué país es famoso por su chocolate?",
+    "options": ["Francia", "Italia", "Suiza", "Bélgica"],
+    "correct": "Suiza"
+  },
+  {
+    "question": "¿Cuántos años duró la Guerra de los Cien Años?",
+    "options": ["100 años", "105 años", "110 años", "116 años"],
+    "correct": "116 años"
+  },
+  {
+    "question": "¿Cuál es el único mamífero que puede volar activamente?",
+    "options": ["Ave", "Murciélago", "Pájaro", "Delfín"],
+    "correct": "Murciélago"
+  },
+  {
+    "question": "¿Cuál es la capital de Argentina?",
+    "options": ["Rosario", "Córdoba", "Mendoza", "Buenos Aires"],
+    "correct": "Buenos Aires"
+  },
+  {
+    "question": "¿Cuál es el metal precioso más caro?",
+    "options": ["Plata", "Platino", "Oro", "Rodio"],
+    "correct": "Rodio"
+  },
+  {
+    "question": "¿Cuál es el país con la esperanza de vida más alta?",
+    "options": ["Suiza", "Singapur", "Japón", "Australia"],
+    "correct": "Japón"
+  },
+  {
+    "question": "¿Cuál es la montaña más alta de los Andes?",
+    "options": ["Aconcagua", "Huascarán", "Illimani", "Chimborazo"],
+    "correct": "Aconcagua"
+  },
+  {
+    "question": "¿Quién escribió 'Fahrenheit 451'?",
+    "options": ["George Orwell", "Ray Bradbury", "Aldous Huxley", "H.G. Wells"],
+    "correct": "Ray Bradbury"
+  },
+  {
+    "question": "¿Cuál es el país más visitado del mundo?",
+    "options": ["Estados Unidos", "Italia", "España", "Francia"],
+    "correct": "Francia"
+  },
+  {
+    "question": "¿Cuál es el río más caudaloso del mundo?",
+    "options": ["Amazonas", "Congo", "Ganges", "Yangtsé"],
+    "correct": "Amazonas"
+  },
+  {
+    "question": "¿Quién inventó el teléfono?",
+    "options": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"],
+    "correct": "Alexander Graham Bell"
+  },
+  {
+    "question": "¿Cuál es el continente más poblado?",
+    "options": ["África", "Europa", "América", "Asia"],
+    "correct": "Asia"
+  },
+  {
+    "question": "¿Cuál es el festival más grande de Brasil?",
+    "options": ["Carnaval", "Fiesta de San Juan", "Bumba Meu Boi", "Oktoberfest"],
+    "correct": "Carnaval"
+  },
+  {
+    "question": "¿Cuál es la capital de Portugal?",
+    "options": ["Oporto", "Lisboa", "Coímbra", "Braga"],
+    "correct": "Lisboa"
+  },
+  {
+    "question": "¿Qué animal es considerado el mejor amigo del hombre?",
+    "options": ["Gato", "Caballo", "Perro", "Loro"],
+    "correct": "Perro"
+  },
+  {
+    "question": "¿Quién escribió 'Matar a un ruiseñor'?",
+    "options": ["Harper Lee", "Ernest Hemingway", "F. Scott Fitzgerald", "Mark Twain"],
+    "correct": "Harper Lee"
+  },
+  {
+    "question": "¿Cuál es el volcán más famoso de Italia?",
+    "options": ["Etna", "Vesubio", "Stromboli", "Vulcano"],
+    "correct": "Vesubio"
+  },
+  {
+    "question": "¿Cuántos planetas hay en el sistema solar?",
+    "options": ["7", "8", "9", "10"],
+    "correct": "8"
+  },
+  {
+    "question": "¿Quién es el autor de 'La Odisea'?",
+    "options": ["Sófocles", "Eurípides", "Homero", "Aristóteles"],
+    "correct": "Homero"
+  },
+  {
+    "question": "¿Cuál es la capital de Colombia?",
+    "options": ["Medellín", "Bogotá", "Cali", "Cartagena"],
+    "correct": "Bogotá"
+  },
+  {
+    "question": "¿Dónde se encuentra la Gran Muralla?",
+    "options": ["Japón", "India", "China", "Corea"],
+    "correct": "China"
+  },
+  {
+    "question": "¿Cuál es el plátano más famoso del mundo?",
+    "options": ["Cavendish", "Manzano", "Plátano", "Dominico"],
+    "correct": "Cavendish"
+  },
+  {
+    "question": "¿Quién ganó la Copa del Mundo 2018?",
+    "options": ["Croacia", "Bélgica", "Inglaterra", "Francia"],
+    "correct": "Francia"
+  },
+  {
+    "question": "¿Cuál es el personaje más famoso de Disney?",
+    "options": ["Pato Donald", "Goofy", "Mickey Mouse", "Minnie Mouse"],
+    "correct": "Mickey Mouse"
+  },
+  {
+    "question": "¿Cuál es el juego de mesa más vendido del mundo?",
+    "options": ["Monopoly", "Clue", "Risk", "Ajedrez"],
+    "correct": "Ajedrez"
+  },
+  {
+    "question": "¿Cuál es la capital de Rusia?",
+    "options": ["San Petersburgo", "Moscú", "Kazán", "Novosibirsk"],
+    "correct": "Moscú"
+  },
+  {
+    "question": "¿Cuál es el animal que más horas duerme?",
+    "options": ["Gato", "Koala", "Perezoso", "Topo"],
+    "correct": "Koala"
+  },
+  {
+    "question": "¿Quién es conocido como el padre del psicoanálisis?",
+    "options": ["Carl Jung", "Sigmund Freud", "Alfred Adler", "Ivan Pavlov"],
+    "correct": "Sigmund Freud"
+  },
+  {
+    "question": "¿Cuál es la pintura más famosa de la historia?",
+    "options": ["La Gioconda", "La noche estrellada", "El beso", "La última cena"],
+    "correct": "La Gioconda"
+  },
+  {
+    "question": "¿En qué año se fundó Facebook?",
+    "options": ["2002", "2003", "2004", "2005"],
+    "correct": "2004"
+  },
+  {
+    "question": "¿Cuál es el océano que rodea la Antártida?",
+    "options": ["Índico", "Atlántico", "Glacial Antártico", "Pacífico"],
+    "correct": "Glacial Antártico"
+  },
+  {
+    "question": "¿Quién inventó la imprenta?",
+    "options": ["Johannes Gutenberg", "Gutenberg Bibles", "William Caxton", "Aldus Manutius"],
+    "correct": "Johannes Gutenberg"
+  },
+  {
+    "question": "¿Cuál es la capital de Chile?",
+    "options": ["Valparaíso", "Santiago", "Concepción", "Viña del Mar"],
+    "correct": "Santiago"
+  },
+  {
+    "question": "¿Cuál es el ave más pequeña del mundo?",
+    "options": ["Colibrí", "Zunzuncito", "Abejaruco", "Picaflor"],
+    "correct": "Zunzuncito"
+  },
+  {
+    "question": "¿Cuál es el deporte más antiguo?",
+    "options": ["Atletismo", "Lucha", "Boxeo", "Fútbol"],
+    "correct": "Atletismo"
+  },
+  {
+    "question": "¿Dónde está el famoso Taj Mahal?",
+    "options": ["India", "Bangladés", "Pakistán", "Nepal"],
+    "correct": "India"
+  },
+  {
+    "question": "¿Cuál es el rey de los dioses en la mitología nórdica?",
+    "options": ["Thor", "Loki", "Freyr", "Odin"],
+    "correct": "Odin"
+  },
+  {
+    "question": "¿Cuál es la capital de Grecia?",
+    "options": ["Tesalónica", "Patras", "Atenas", "Heraclión"],
+    "correct": "Atenas"
+  },
+  {
+    "question": "¿Quién pintó 'La Capilla Sixtina'?",
+    "options": ["Leonardo da Vinci", "Miguel Ángel", "Rafael", "Botticelli"],
+    "correct": "Miguel Ángel"
+  },
+  {
+    "question": "¿Cuál es la fruta más cultivada del mundo?",
+    "options": ["Manzana", "Plátano", "Uva", "Naranja"],
+    "correct": "Plátano"
+  },
+  {
+    "question": "¿Quién es el protagonista de 'El Padrino'?",
+    "options": ["Sonny Corleone", "Michael Corleone", "Vito Corleone", "Tom Hagen"],
+    "correct": "Michael Corleone"
+  },
+  {
+    "question": "¿Cuál es el libro más antiguo del mundo?",
+    "options": ["La Biblia", "El Corán", "Libro de los Muertos", "Tora"],
+    "correct": "Libro de los Muertos"
+  },
+  {
+    "question": "¿Cuánto cuesta el billete de $100 dólares?",
+    "options": ["$50", "$100", "$150", "$200"],
+    "correct": "$100"
+  },
+  {
+    "question": "¿Cuál es la capital de Tailandia?",
+    "options": ["Phuket", "Chiang Mai", "Bangkok", "Pattaya"],
+    "correct": "Bangkok"
+  },
+  {
+    "question": "¿Qué vitamina previene el escorbuto?",
+    "options": ["C", "A", "B12", "D"],
+    "correct": "C"
+  },
+  {
+    "question": "¿Quién fue el primer astronauta americano en órbita?",
+    "options": ["John Glenn", "Alan Shepard", "Buzz Aldrin", "Neil Armstrong"],
+    "correct": "John Glenn"
+  },
+  {
+    "question": "¿Cuál es el metal más barato?",
+    "options": ["Aluminio", "Níquel", "Cobre", "Hierro"],
+    "correct": "Hierro"
+  },
+  {
+    "question": "¿Dónde está el Museo del Louvre?",
+    "options": ["Londres", "París", "Roma", "Berlín"],
+    "correct": "París"
+  },
+  {
+    "question": "¿Cuándo se celebra la Independencia de México?",
+    "options": ["15 de septiembre", "16 de septiembre", "20 de noviembre", "5 de febrero"],
+    "correct": "16 de septiembre"
+  },
+  {
+    "question": "¿Cuál es la capital de Finlandia?",
+    "options": ["Helsinki", "Tampere", "Turku", "Oulu"],
+    "correct": "Helsinki"
+  },
+  {
+    "question": "¿Qué animal puede cambiar de color?",
+    "options": ["Pulpo", "Camaleón", "Sepia", "Rana"],
+    "correct": "Camaleón"
+  },
+  {
+    "question": "¿En qué año se descubrió América?",
+    "options": ["1490", "1491", "1492", "1493"],
+    "correct": "1492"
+  },
+  {
+    "question": "¿Cuál es la enfermedad más mortal del mundo?",
+    "options": ["Cáncer", "SIDA", "Paludismo", "COVID-19"],
+    "correct": "Paludismo"
+  },
+  {
+    "question": "¿Cuál es el océano más oscuro?",
+    "options": ["Pacífico", "Atlántico", "Índico", "Ártico"],
+    "correct": "Pacífico"
+  },
+  {
+    "question": "¿Quién escribió 'La metamorfosis'?",
+    "options": ["Franz Kafka", "James Joyce", "Marcel Proust", "Thomas Mann"],
+    "correct": "Franz Kafka"
+  },
+  {
+    "question": "¿Cuál es el baile nacional de Argentina?",
+    "options": ["Cumbia", "Tango", "Salsa", "Merengue"],
+    "correct": "Tango"
+  },
+  {
+    "question": "¿Cuál es la montaña más sagrada del mundo?",
+    "options": ["Everest", "Kailash", "Fuji", "Ararat"],
+    "correct": "Kailash"
+  },
+  {
+    "question": "¿Cuánto mide la Torre Eiffel?",
+    "options": ["300 m", "324 m", "330 m", "350 m"],
+    "correct": "324 m"
+  },
+  {
+    "question": "¿Qué país produce los mejores vinos?",
+    "options": ["Italia", "Francia", "España", "Chile"],
+    "correct": "Francia"
+  },
+  {
+    "question": "¿Cuál es el instrumento más pesado en una orquesta?",
+    "options": ["Tuba", "Harpa", "Contrabajo", "Bombo"],
+    "correct": "Contrabajo"
+  },
+  {
+    "question": "¿Cuál es la capital de Hungría?",
+    "options": ["Budapest", "Viena", "Bratislava", "Praga"],
+    "correct": "Budapest"
+  },
+  {
+    "question": "¿Cuál es el animal más venenoso del mundo?",
+    "options": ["Víbora", "Avispa", "Rana dorada", "Escorpión"],
+    "correct": "Rana dorada"
+  },
+  {
+    "question": "¿Quién fue el primer hombre en la cima del Everest?",
+    "options": ["Edmund Hillary", "Tenzing Norgay", "Reinhold Messner", "George Mallory"],
+    "correct": "Edmund Hillary"
+  },
+  {
+    "question": "¿Cuál es el río más sagrado de la India?",
+    "options": ["Indo", "Brahmaputra", "Ganges", "Yamuna"],
+    "correct": "Ganges"
+  },
+  {
+    "question": "¿Cuál es la capital de Uruguay?",
+    "options": ["Montevideo", "Punta del Este", "Colonia", "Salto"],
+    "correct": "Montevideo"
+  },
+  {
+    "question": "¿Cuál es la estrella más cercana a la Tierra?",
+    "options": ["Sol", "Próxima Centauri", "Alpha Centauri", "Sirio"],
+    "correct": "Sol"
+  },
+  {
+    "question": "¿Cuál es el cometa más famoso?",
+    "options": ["Halley", "Hale-Bopp", "Kohoutek", "Tempel"],
+    "correct": "Halley"
+  },
+  {
+    "question": "¿Quién escribió 'Las 48 leyes del poder'?",
+    "options": ["Robert Greene", "Maquiavelo", "Nicolás Maquiavelo", "Sun Tzu"],
+    "correct": "Robert Greene"
+  },
+  {
+    "question": "¿Cuál es el mejor equipo de fútbol del mundo?",
+    "options": ["Barcelona", "Real Madrid", "Bayern", "Liverpool"],
+    "correct": "Real Madrid"
+  },
+  {
+    "question": "¿Cuál fue la primera película de Disney?",
+    "options": ["Blanca Nieves", "Pinocho", "Fantasía", "Dumbo"],
+    "correct": "Blanca Nieves"
+  },
+  {
+    "question": "¿Cuál es la ciudad del amor?",
+    "options": ["Venecia", "París", "Roma", "Florencia"],
+    "correct": "París"
+  },
+  {
+    "question": "¿Quién es el dios del mar en la mitología griega?",
+    "options": ["Poseidón", "Zeus", "Apolo", "Ares"],
+    "correct": "Poseidón"
+  },
+  {
+    "question": "¿Cuántos años tiene la Tierra?",
+    "options": ["4.500 millones", "4.543 millones", "4.600 millones", "4.700 millones"],
+    "correct": "4.543 millones"
+  },
+  {
+    "question": "¿Cuál es la capital de Noruega?",
+    "options": ["Bergen", "Oslo", "Trondheim", "Stavanger"],
+    "correct": "Oslo"
+  },
+  {
+    "question": "¿Cuál es el primer color del arcoíris?",
+    "options": ["Violeta", "Azul", "Rojo", "Verde"],
+    "correct": "Rojo"
+  },
+  {
+    "question": "¿Quién pintó 'Mona Lisa'?",
+    "options": ["Da Vinci", "Rafael", "Miguel Ángel", "Caravaggio"],
+    "correct": "Da Vinci"
+  },
+  {
+    "question": "¿Dónde está el Coliseo Romano?",
+    "options": ["Atenas", "Roma", "Nápoles", "Venecia"],
+    "correct": "Roma"
+  },
+  {
+    "question": "¿Cuál es el país con más campeonatos de F1?",
+    "options": ["Alemania", "Reino Unido", "Francia", "Italia"],
+    "correct": "Reino Unido"
+  },
+  {
+    "question": "¿Quién fue el 'Rey del Rock'?",
+    "options": ["Elvis Presley", "Chuck Berry", "Little Richard", "Buddy Holly"],
+    "correct": "Elvis Presley"
+  },
+  {
+    "question": "¿Cuántos años hay en un siglo?",
+    "options": ["100", "50", "200", "150"],
+    "correct": "100"
+  },
+  {
+    "question": "¿Dónde se encuentra el Taj Mahal?",
+    "options": ["Delhi", "Mumbai", "Agra", "Calcuta"],
+    "correct": "Agra"
+  },
+  {
+    "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+    "options": ["Corazón", "Piel", "Hígado", "Cerebro"],
+    "correct": "Piel"
+  },
+  {
+    "question": "¿Cuál es el país más feliz del mundo?",
+    "options": ["Suiza", "Finlandia", "Noruega", "Dinamarca"],
+    "correct": "Finlandia"
+  },
+  {
+    "question": "¿Cuál es la capital de Ghana?",
+    "options": ["Kumasi", "Acra", "Takoradi", "Cabo Coast"],
+    "correct": "Acra"
+  },
+  {
+    "question": "¿Quién fue el inventor de la bombilla?",
+    "options": ["Tesla", "Edison", "Bell", "Franklin"],
+    "correct": "Edison"
+  },
+  {
+    "question": "¿Cuál es el juego de cartas más popular?",
+    "options": ["Póker", "Bridge", "Blackjack", "Rummy"],
+    "correct": "Póker"
+  },
+  {
+    "question": "¿En qué año se estrenó 'Star Wars'?",
+    "options": ["1975", "1976", "1977", "1978"],
+    "correct": "1977"
+  },
+  {
+    "question": "¿Cuál es el símbolo de la paz mundial?",
+    "options": ["Paloma", "Olivo", "Banderas", "Arcoíris"],
+    "correct": "Paloma"
+  },
+  {
+    "question": "¿Cuál es la capital de Islandia?",
+    "options": ["Reykjavik", "Akureyri", "Keflavík", "Hafnarfjörður"],
+    "correct": "Reykjavik"
+  },
+  {
+    "question": "¿Quién escribió 'Rayuela'?",
+    "options": ["Julio Cortázar", "Jorge Luis Borges", "Gabriel García Márquez", "Mario Vargas Llosa"],
+    "correct": "Julio Cortázar"
+  },
+  {
+    "question": "¿Dónde está la Ciudad Prohibida?",
+    "options": ["Tokio", "Pekín", "Seúl", "Bangkok"],
+    "correct": "Pekín"
+  },
+  {
+    "question": "¿Cuál es la comida más rápida del mundo?",
+    "options": ["Hamburguesa", "Hot dog", "Pizza", "Tallarín"],
+    "correct": "Hamburguesa"
+  },
+  {
+    "question": "¿Cuántos días tiene un año bisiesto?",
+    "options": ["365", "366", "367", "364"],
+    "correct": "366"
+  },
+  {
+    "question": "¿Cuál es el dulce más popular en Halloween?",
+    "options": ["Caramelo", "Chocolate", "Dulce de maíz", "Gomitas"],
+    "correct": "Dulce de maíz"
+  },
+  {
+    "question": "¿Cuál es el baile más sensual?",
+    "options": ["Salsa", "Tango", "Bachata", "Merengue"],
+    "correct": "Bachata"
+  },
+  {
+    "question": "¿Cuál es la capital de Suecia?",
+    "options": ["Estocolmo", "Gotemburgo", "Malmo", "Uppsala"],
+    "correct": "Estocolmo"
+  },
+  {
+    "question": "¿Cuál es la isla más grande del mundo?",
+    "options": ["Groenlandia", "Australia", "Nueva Guinea", "Borneo"],
+    "correct": "Groenlandia"
+  },
+  {
+    "question": "¿Quién es el autor de 'El código Da Vinci'?",
+    "options": ["Dan Brown", "Tom Clancy", "Stephen King", "J.K. Rowling"],
+    "correct": "Dan Brown"
+  },
+  {
+    "question": "¿Cuál es la mascota de los Juegos Olímpicos?",
+    "options": ["Pequeño", "Oso", "Panda", "Pingüino"],
+    "correct": "Panda"
+  },
+  {
+    "question": "¿Cuántos colores tiene el semáforo?",
+    "options": ["3", "2", "4", "5"],
+    "correct": "3"
+  },
+  {
+    "question": "¿Dónde está la estatua de la libertad?",
+    "options": ["Nueva York", "Washington", "Boston", "Chicago"],
+    "correct": "Nueva York"
+  },
+  {
+    "question": "¿Cuál es el país más rico del mundo?",
+    "options": ["Estados Unidos", "China", "Japón", "Alemania"],
+    "correct": "Estados Unidos"
+  },
+  {
+    "question": "¿Cuál es la capital de Bélgica?",
+    "options": ["Bruselas", "Brujas", "Gante", "Amberes"],
+    "correct": "Bruselas"
+  },
+  {
+    "question": "¿Cuál es el mejor café del mundo?",
+    "options": ["Colombiano", "Brasileño", "Vietnamita", "Etiope"],
+    "correct": "Colombiano"
+  },
+  {
+    "question": "¿Cuál es la mejor película de la historia?",
+    "options": ["El Padrino", "Titanic", "Avatar", "The Dark Knight"],
+    "correct": "El Padrino"
+  },
+  {
+    "question": "¿En qué año se fundó Apple?",
+    "options": ["1975", "1976", "1977", "1978"],
+    "correct": "1976"
+  },
+  {
+    "question": "¿Cuál es el planeta más caliente?",
+    "options": ["Mercurio", "Venus", "Marte", "Júpiter"],
+    "correct": "Venus"
+  },
+  {
+    "question": "¿Cuántos años duró la guerra de Vietnam?",
+    "options": ["15", "20", "25", "30"],
+    "correct": "20"
+  },
+  {
+    "question": "¿Cuál es el río más famoso de Egipto?",
+    "options": ["Nilo", "Amazonas", "Éufrates", "Tigris"],
+    "correct": "Nilo"
+  },
+  {
+    "question": "¿Cuál es la capital de Dinamarca?",
+    "options": ["Copenhague", "Aarhus", "Odense", "Aalborg"],
+    "correct": "Copenhague"
+  },
+  {
+    "question": "¿Cuál es el mejor restaurante del mundo?",
+    "options": ["Noma", "El Bulli", "Osteria Francescana", "Eleven Madison Park"],
+    "correct": "Noma"
+  },
+  {
+    "question": "¿Cuál es el cohete más famoso?",
+    "options": ["Saturno V", "SpaceX", "Apolo", "Soyuz"],
+    "correct": "Saturno V"
+  },
+  {
+    "question": "¿Quién descubrió la penicilina?",
+    "options": ["Fleming", "Pasteur", "Koch", "Salk"],
+    "correct": "Fleming"
+  },
+  {
+    "question": "¿Cuál es el modelo de auto más vendido?",
+    "options": ["Corolla", "Civic", "Golf", "F-150"],
+    "correct": "Corolla"
+  },
+  {
+    "question": "¿Cuál es la capital de Polonia?",
+    "options": ["Varsovia", "Cracovia", "Lodz", "Poznan"],
+    "correct": "Varsovia"
+  },
+  {
+    "question": "¿Cuál es el mejor invento de la humanidad?",
+    "options": ["Internet", "Electricidad", "Rueda", "Medicina"],
+    "correct": "Rueda"
+  },
+  {
+    "question": "¿Cuál es el virus más mortal?",
+    "options": ["Ébola", "VIH", "Gripe española", "COVID"],
+    "correct": "Gripe española"
+  },
+  {
+    "question": "¿Cuánto cree que sabe?",
+    "options": ["Mucho", "Poco", "Nada", "Todo"],
+    "correct": "Todo"
+  }
+]
