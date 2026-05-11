@@ -10,77 +10,68 @@ const execPromise = util.promisify(exec)
 
 const tags = {
   main: 'ρяιη¢ιραℓ',
+  fun: 'ƒυη',
   group: 'ɢяυρσѕ',
+  downloader: '∂σωηℓσα∂єя',
+  search: 'ѕєαя¢н',
   economy: 'є¢σησму',
+  game: 'gαмє',
+  nsfw: 'ηѕƒω +18',
+  tools: 'тσσℓѕ',
   serbot: 'ѕєявσт',
-  owner: 'σωηєя'
+  owner: 'σωηєя',
+  sticker: 'ѕтι¢кєяѕ',
+  reaction: 'яєα¢тισηѕ',
+  register: 'яєgιѕтєя',
+  anime: 'αηιмє',
+  info: 'ιηƒσ'
 }
 
 const defaultMenu = {
   before: `
-ㅤ    ꒰  ㅤ 🕸️ ㅤ *αℓуα ѕυв* ㅤ ⫏⫏  ꒱
+ㅤ    ꒰  ㅤ 🕸️ ㅤ *αℓуα - вσт* ㅤ ⫏⫏  ꒱
 ㅤ    ⿻ ㅤ ✿ ㅤ ιηƒσ 木 αтт ㅤ 性
 
-> ₊· нσℓα *.* вιєηνєηι∂σ αℓ мєηυ ∂є *αℓуα ѕυв*
-> ₊· υѕυαяισ: %name
-> ₊· ηινєℓ: %level
-> ₊· єχρ: %exp / %maxexp
-> ₊· υѕυαяισѕ: %totalreg
-
+> ₊· нσℓα *.* вιєηνєηι∂σ αℓ мєηυ ∂є *αℓуα - вσт*
+> ⫏⫏   ✿ ¢αηαℓ  ›
+> » https://whatsapp.com/channel/0029VbCOTaJ9RZAQPdiZ4J1K
 %readmore
-`,
+`.trimStart(),
   header: '\nㅤ    ꒰  ㅤ ✿ ㅤ *%category* ㅤ ⫏⫏  ꒱\nㅤ    ⿻ ㅤ 性 ㅤ ѕє¢¢ιση ㅤ ✿',
-  body: '> ₊· ⫏⫏ ㅤ %cmd\n> ₊· → %desc',
-  footer: '',
+  body: '> ₊· ⫏⫏ ㅤ %cmd',
+  footer: 'ㅤ',
   after: `
 ㅤ
-ㅤ    ꒰  ㅤ ✿ ㅤ *αℓуα ѕυв* ㅤ ⫏⫏  ꒱
+ㅤ    ꒰  ㅤ ✿ ㅤ *αℓуα - вσт* ㅤ ⫏⫏  ꒱
 ㅤ    ⿻ ㅤ 性 ㅤ ѕιѕтємα єנє¢υтα∂σ ㅤ ✿
 ㅤ
-ㅤ    ꒰  ㅤ 🕸️ ㅤ *ℓүσηη* ㅤ ⫏⫏  ꒱
+ㅤ    ꒰  ㅤ 🕸️ ㅤ *ᴄʀᴇᴀᴅᴏ ᴘᴏʀ ʟʏᴏɴɴ* ㅤ ⫏⫏  ꒱
 > ₊· ⫏⫏ ㅤ ✿ 木 性 ㅤ αℓуα
 `
 }
 
 async function descargarYConvertirAudio(url, outputPath) {
   const tmpDir = path.join(process.cwd(), 'tmp')
+
   if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir, { recursive: true })
+
   const tempPath = path.join(tmpDir, `temp_${Date.now()}.mp3`)
+
   const res = await fetch(url)
   const buffer = await res.buffer()
   fs.writeFileSync(tempPath, buffer)
+
   await execPromise(
     `ffmpeg -y -i "${tempPath}" -c:a libopus -b:a 24k -vbr on -compression_level 10 -f ogg "${outputPath}"`
   )
+
   fs.unlinkSync(tempPath)
+
   return outputPath
 }
 
 const handler = async (m, { conn, usedPrefix: _p }) => {
   try {
-    let user = global.db.data.users[m.sender]
-
-    if (!user.registered) {
-      let fotoPerfil = 'https://files.catbox.moe/jg0te7.jpeg'
-      try {
-        let pp = await conn.profilePictureUrl(m.sender, 'image')
-        if (pp) fotoPerfil = pp
-      } catch (e) {}
-
-      return await conn.sendMessage(m.chat, {
-        image: { url: fotoPerfil },
-        caption: `
-ㅤ    ꒰  ㅤ ❌ ㅤ *αℓуα ѕυв* ㅤ ⫏⫏  ꒱
-ㅤ    ⿻ ㅤ ✿ ㅤ яєgιѕтяσ 木 ηє¢єѕαяισ ㅤ ✿
-
-> ₊· ⫏⫏ ㅤ *Debes registrarte primero*
-> ₊· ⫏⫏ ㅤ Usa: ${_p}reg Lyonn.14
-
-ㅤ    ꒰  ㅤ ✿ ㅤ *αℓуα ѕυв* ㅤ ⫏⫏ ꒱
-        `.trim()
-      }, { quoted: m })
-    }
-
     const { exp, level } = global.db.data.users[m.sender]
     const { min, xp } = xpRange(level, global.multiplier)
     const name = await conn.getName(m.sender)
@@ -91,13 +82,14 @@ const handler = async (m, { conn, usedPrefix: _p }) => {
         help: Array.isArray(p.help) ? p.help : [p.help],
         tags: Array.isArray(p.tags) ? p.tags : [p.tags],
         prefix: 'customPrefix' in p,
-        desc: p.desc || 'ѕιη ∂єѕ¢яιρ¢ιση'
       }))
 
-    let bannerFinal = 'https://files.catbox.moe/jg0te7.jpeg'
+    let bannerFinal = 'https://files.catbox.moe/z4qgf1.jpeg'
     let audioURL = 'https://files.catbox.moe/i427hk.mp3'
 
-    const textoMenu = [
+    const tipo = conn.user.jid === global.conn.user.jid ? 'ρяιη¢ιραℓ' : 'ѕυв вσт'
+
+    const _text = [
       defaultMenu.before,
       ...Object.keys(tags).map(tag => {
         const cmds = help
@@ -105,13 +97,8 @@ const handler = async (m, { conn, usedPrefix: _p }) => {
           .map(menu => menu.help.map(h =>
             defaultMenu.body
               .replace(/%cmd/g, menu.prefix ? h : `${_p}${h}`)
-              .replace(/%desc/g, menu.desc)
           ).join('\n')).join('\n')
-        return cmds ? [
-          defaultMenu.header.replace(/%category/g, tags[tag]),
-          cmds,
-          defaultMenu.footer
-        ].join('\n') : ''
+        return cmds ? [defaultMenu.header.replace(/%category/g, tags[tag]), cmds, defaultMenu.footer].join('\n') : ''
       }).filter(Boolean),
       defaultMenu.after
     ].join('\n')
@@ -122,15 +109,16 @@ const handler = async (m, { conn, usedPrefix: _p }) => {
       exp: exp - min,
       maxexp: xp,
       totalreg: Object.keys(global.db.data.users).length,
+      muptime: clockString(process.uptime() * 1000),
       readmore: readMore,
+      tipo: tipo,
     }
 
-    const texto = textoMenu.replace(new RegExp(`%(${Object.keys(replace).join('|')})`, 'g'), (_, name) => String(replace[name]))
+    const text = _text.replace(new RegExp(`%(${Object.keys(replace).join('|')})`, 'g'), (_, name) => String(replace[name]))
 
-    // ── Envío del menú con botón de ping ──
     await conn.sendMessage(m.chat, {
       image: { url: bannerFinal },
-      caption: texto.trim(),
+      caption: text.trim(),
       mentions: [m.sender],
       contextInfo: {
         forwardingScore: 999,
@@ -140,19 +128,9 @@ const handler = async (m, { conn, usedPrefix: _p }) => {
           newsletterName: "αℓуα - ¢нαηηєℓ",
           serverMessageId: 1
         }
-      },
-      buttons: [
-        {
-          buttonId: `${_p}ping`,
-          buttonText: { displayText: '🏓 ριηg' },
-          type: 1
-        }
-      ],
-      headerType: 4,  // 4 = imagen
-      footer: '⫏⫏ αℓуα ѕυв ✿'
+      }
     }, { quoted: m })
 
-    // ── Audio ──
     try {
       const audioPath = path.join(process.cwd(), 'tmp', `menu_audio_${Date.now()}.ogg`)
       await descargarYConvertirAudio(audioURL, audioPath)
@@ -186,3 +164,10 @@ export default handler
 
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
+
+function clockString(ms) {
+  let h = Math.floor(ms / 3600000)
+  let m = Math.floor(ms / 60000) % 60
+  let s = Math.floor(ms / 1000) % 60
+  return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':')
+}
