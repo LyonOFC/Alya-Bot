@@ -1,4 +1,3 @@
-
 import fetch from 'node-fetch'
 import fs from 'fs'
 import path from 'path'
@@ -23,7 +22,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
                 header: '📥 DESCARGA DIRECTA',
                 title: '🎵 PEGAR LINK',
                 description: 'https://youtu.be/...',
-                id: `${usedPrefix}play `
+                id: `${usedPrefix}ytmp3 `
               }
             ]
           }
@@ -32,8 +31,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }
 
     const interactiveMessage = proto.Message.InteractiveMessage.create({
-      header: { title: 'αℓуα - ρℓαу', subtitle: 'Youtube a Mp3', hasMediaAttachment: false },
-      body: { text: `ㅤ    ꒰ 🎵 *αℓуα - ρℓαу* ⫏⫏ ꒱
+      header: { title: 'αℓуα - утмρ3', subtitle: 'Youtube a Mp3', hasMediaAttachment: false },
+      body: { text: `ㅤ    ꒰ 🎵 *αℓуα - утмρ3* ⫏⫏ ꒱
 ㅤ    ⿻ ✿ ιηƒσ 木 αтт 性
 
 > ₊· Uѕσ: *${usedPrefix + command} + link*
@@ -76,6 +75,16 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     const segundos = duration % 60
     const duracion = `${minutos}:${segundos.toString().padStart(2, '0')}`
 
+    const tmpDir = path.join(process.cwd(), 'tmp')
+    if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir, { recursive: true })
+
+    const thumbPath = path.join(tmpDir, `thumb_${Date.now()}.jpg`)
+    const thumbRes = await fetch(thumbnail)
+    const thumbBuffer = await thumbRes.buffer()
+    fs.writeFileSync(thumbPath, thumbBuffer)
+
+    const media = await conn.prepareWAMessageMedia({ image: fs.readFileSync(thumbPath) }, { upload: conn.waUploadToServer })
+
     const gameId = m.chat
     descargas[gameId] = {
       url: download_url,
@@ -107,8 +116,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }
 
     const interactiveMessage = proto.Message.InteractiveMessage.create({
-      header: { title: 'αℓуα - ρℓαу', subtitle: 'Youtube a Mp3', hasMediaAttachment: false },
-      body: { text: `ㅤ    ꒰ 🎵 *αℓуα - ρℓαу* ⫏⫏ ꒱
+      header: { title: 'αℓуα - утмρ3', subtitle: 'Youtube a Mp3', hasMediaAttachment: true, imageMessage: media.imageMessage },
+      body: { text: `ㅤ    ꒰ 🎵 *αℓуα - утмρ3* ⫏⫏ ꒱
 ㅤ    ⿻ ✿ ιηƒσ 木 αтт 性
 
 > ₊· *Título:* ${title}
@@ -128,6 +137,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }, { quoted: m })
 
     await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id })
+    fs.unlinkSync(thumbPath)
 
   } catch (error) {
     m.reply(`❌ Error al procesar el enlace`)
@@ -147,7 +157,7 @@ handler.before = async (m, { conn }) => {
     const descarga = descargas[gameId]
     
     if (!descarga) {
-      await conn.sendMessage(m.chat, { text: `❌ El enlace expiró. Usa *play* nuevamente.` }, { quoted: m })
+      await conn.sendMessage(m.chat, { text: `❌ El enlace expiró. Usa *ytmp3* nuevamente.` }, { quoted: m })
       return true
     }
 
@@ -179,8 +189,7 @@ handler.before = async (m, { conn }) => {
   }
 }
 
-
-handler.help = ['ytmp3 <link]']
+handler.help = ['ytmp3']
 handler.tags = ['downloader']
 handler.command = ['ytmp3']
 
