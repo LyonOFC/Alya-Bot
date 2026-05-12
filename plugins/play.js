@@ -18,7 +18,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   await m.react('🎵')
 
   try {
-    const searchUrl = ` https://dvlyonnxz.onrender.com/search/youtube?=${encodeURIComponent(text)}`
+    const searchUrl = `https://dvlyonnxz.onrender.com/search/youtube?=${encodeURIComponent(text)`
     const busqueda = await fetch(searchUrl)
     const searchData = await busqueda.json()
 
@@ -105,7 +105,7 @@ handler.before = async (m, { conn }) => {
 
     await conn.sendMessage(m.chat, { text: `⏳ Descargando audio: *${videoTitle.substring(0, 40)}*...` }, { quoted: m })
 
-    const downloadUrl = `https://dvlyonn.onrender.com/download/ytaudio?url=${encodeURIComponent(videoUrl)}`
+    const downloadUrl = `https://dvlyonnxz.onrender.com/download/ytaudio?url${encodeURIComponent(videoUrl)}`
     const response = await fetch(downloadUrl)
     const data = await response.json()
 
