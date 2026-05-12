@@ -18,7 +18,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   await m.react('🎵')
 
   try {
-    const searchUrl = `https://dvlyonn.onrender.com/search/youtube?q=${encodeURIComponent(text)}`
+    const searchUrl = ` https://dvlyonnxz.onrender.com/search/youtube?=${encodeURIComponent(text)}`
     const busqueda = await fetch(searchUrl)
     const searchData = await busqueda.json()
 
